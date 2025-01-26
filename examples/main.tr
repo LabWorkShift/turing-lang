@@ -1,0 +1,28 @@
+fn main() {
+    let number = 42
+    let text = "Hello, Turing!"
+    
+    fn factorial(n) {
+        if n <= 1 {
+            return 1
+        }
+        return n * factorial(n - 1)
+    }
+    
+    let result = factorial(5)
+    print(result)
+    
+    let counter = 0
+    while counter < 5 {
+        print(counter)
+        counter = counter + 1
+    }
+    
+    if result > 100 {
+        print("Result is large!")
+    } else {
+        print("Result is small.")
+    }
+    
+    return 0
+}
