@@ -1,6 +1,6 @@
 # Turing Lang
 
-A high-performance compiled programming language implemented in Rust.
+A compiled programming language implemented in Rust.
 
 ## Features
 
