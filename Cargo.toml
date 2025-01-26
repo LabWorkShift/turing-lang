@@ -1,0 +1,13 @@
+[package]
+name = "turing_lang"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["Turing Lang Contributors"]
+description = "A programming language compiler built with LLVM"
+
+[dependencies]
+inkwell = { git = "https://github.com/TheDan64/inkwell", branch = "master", features = ["llvm13-0"] }
+
+[build]
+rustflags = ["-C", "target-cpu=native"]
